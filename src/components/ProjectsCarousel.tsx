@@ -6,39 +6,32 @@ import { ChevronLeft, ChevronRight, ExternalLink, Globe, ShoppingCart, BarChart3
 const projects = [
   {
     id: 1,
-    title: "Landing Page Moderna",
-    description: "Sitio web corporativo con diseño minimalista y alta conversión",
-    icon: Globe,
-    color: "bg-primary",
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop&crop=center",
-    tags: ["React", "Tailwind", "Animations"]
+    title: "E-commerce Moderno",
+    description: "Plataforma de ventas online completa con carrito de compras, gestión de productos y pagos integrados",
+    icon: ShoppingCart,
+    color: "bg-secondary",
+    image: "/src/img/ecomerce/0.PNG",
+    tags: ["React", "Node.js", "PayPal", "Stripe"],
+    url: "https://plantilla-e-comerce.vercel.app/"
   },
   {
     id: 2,
-    title: "E-commerce Avanzado",
-    description: "Plataforma de ventas online con carrito y pagos integrados",
-    icon: ShoppingCart,
-    color: "bg-secondary",
-    image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=600&fit=crop&crop=center",
-    tags: ["Next.js", "Stripe", "Database"]
+    title: "Sistema de Gestión Sayqa",
+    description: "Sistema integral de gestión empresarial con dashboard analytics y control de inventarios",
+    icon: BarChart3,
+    color: "bg-accent",
+    image: "/src/img/sayqa/1.PNG",
+    tags: ["Vue.js", "Chart.js", "MySQL", "API REST"],
+    url: "https://sayqa-medicina-natural.netlify.app/"
   },
   {
     id: 3,
-    title: "Sistema de Ventas",
-    description: "CRM completo con dashboard analytics y gestión de clientes",
-    icon: BarChart3,
-    color: "bg-accent",
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop&crop=center",
-    tags: ["Vue.js", "Chart.js", "API REST"]
-  },
-  {
-    id: 4,
-    title: "Aplicación Móvil",
-    description: "App nativa multiplataforma con funcionalidades avanzadas",
+    title: "App90 - Aplicación Móvil",
+    description: "Aplicación móvil nativa con funcionalidades avanzadas y experiencia de usuario optimizada",
     icon: Smartphone,
     color: "bg-gradient-primary",
-    image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&h=600&fit=crop&crop=center",
-    tags: ["React Native", "Firebase", "Push Notifications"]
+    image: "/src/img/app90/1.PNG",
+    tags: ["React Native", "Firebase", "Push Notifications", "Offline"]
   }
 ];
 
@@ -78,9 +71,9 @@ const ProjectsCarousel = () => {
           <h2 className="text-5xl font-bold mb-6">
             <span className="gradient-text">Nuestros Proyectos</span>
           </h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Descubre algunos de los trabajos que hemos realizado para nuestros clientes
-          </p>
+                      <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+              Descubre algunos de los proyectos reales que hemos desarrollado con tecnologías modernas
+            </p>
         </div>
 
         <div className="relative max-w-6xl mx-auto">
@@ -123,10 +116,20 @@ const ProjectsCarousel = () => {
                               ))}
                             </div>
 
-                            <Button className="btn-hero w-fit group">
-                              Ver Proyecto
-                              <ExternalLink className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
-                            </Button>
+                            {project.url ? (
+                              <Button 
+                                className="btn-hero w-fit group"
+                                onClick={() => window.open(project.url, '_blank', 'noopener,noreferrer')}
+                              >
+                                Ver Proyecto
+                                <ExternalLink className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                              </Button>
+                            ) : (
+                              <Button className="btn-hero w-fit group" disabled>
+                                Próximamente
+                                <ExternalLink className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                              </Button>
+                            )}
                           </div>
 
                           {/* Project Image */}

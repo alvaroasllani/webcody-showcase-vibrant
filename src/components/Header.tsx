@@ -6,7 +6,7 @@ const Header = () => {
       <div className="container mx-auto px-6 py-4 flex items-center justify-between">
         <div className="flex items-center space-x-3">
           <img 
-            src="/lovable-uploads/300c1245-a286-48c3-89c5-18be3e01eeec.png" 
+            src="/placeholder.svg" 
             alt="WebCody Logo" 
             className="w-12 h-12 animate-float"
           />

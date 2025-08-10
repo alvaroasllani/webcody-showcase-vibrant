@@ -1,73 +1,75 @@
-# Welcome to your Lovable project
+# WebCody - Desarrollo Web Innovador
 
-## Project info
+## Descripción del Proyecto
 
-**URL**: https://lovable.dev/projects/e19a3f6c-933d-4f40-84e5-683269f08e4d
+WebCody es una empresa de desarrollo web especializada en crear experiencias digitales únicas: landing pages, e-commerce, sistemas de ventas y aplicaciones móviles. Nuestro enfoque está en el desarrollo web moderno y vibrante.
 
-## How can I edit this code?
+## Tecnologías Utilizadas
 
-There are several ways of editing your application.
+Este proyecto está construido con:
 
-**Use Lovable**
+- **Vite** - Build tool moderno y rápido
+- **TypeScript** - JavaScript con tipado estático
+- **React** - Biblioteca de JavaScript para interfaces de usuario
+- **shadcn-ui** - Componentes de UI modernos
+- **Tailwind CSS** - Framework de CSS utilitario
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/e19a3f6c-933d-4f40-84e5-683269f08e4d) and start prompting.
+## Instalación y Desarrollo
 
-Changes made via Lovable will be committed automatically to this repo.
+### Requisitos Previos
 
-**Use your preferred IDE**
+- Node.js (versión 16 o superior)
+- npm o yarn
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Pasos de Instalación
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+1. Clona el repositorio:
 
-Follow these steps:
+```bash
+git clone <URL_DEL_REPOSITORIO>
+```
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+2. Navega al directorio del proyecto:
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+```bash
+cd webcody-showcase-vibrant
+```
 
-# Step 3: Install the necessary dependencies.
-npm i
+3. Instala las dependencias:
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
+npm install
+```
+
+4. Inicia el servidor de desarrollo:
+
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+El sitio estará disponible en `http://localhost:8080`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Scripts Disponibles
 
-**Use GitHub Codespaces**
+- `npm run dev` - Inicia el servidor de desarrollo
+- `npm run build` - Construye el proyecto para producción
+- `npm run build:dev` - Construye el proyecto en modo desarrollo
+- `npm run lint` - Ejecuta el linter
+- `npm run preview` - Vista previa del build de producción
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Servicios Ofrecidos
 
-## What technologies are used for this project?
+- **Landing Pages** - Sitios web optimizados para conversión
+- **E-commerce** - Tiendas online completas
+- **Sistemas de Ventas** - CRM y sistemas de gestión empresarial
+- **Apps Móviles** - Aplicaciones nativas multiplataforma
 
-This project is built with:
+## Contacto
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- **Email**: alvarowebcody@gmail.com
+- **WhatsApp**: +591 63970427
+- **Oficina**: Edificio Skybox Piso7, Oficina 9, Avenida Heroinas y Calle Antezana
 
-## How can I deploy this project?
+## Licencia
 
-Simply open [Lovable](https://lovable.dev/projects/e19a3f6c-933d-4f40-84e5-683269f08e4d) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+© 2024 WebCody. Todos los derechos reservados.

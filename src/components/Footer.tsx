@@ -11,7 +11,7 @@ const Footer = () => {
           <div className="md:col-span-2">
             <div className="flex items-center space-x-3 mb-6">
               <img 
-                src="/lovable-uploads/300c1245-a286-48c3-89c5-18be3e01eeec.png" 
+                src="/placeholder.svg" 
                 alt="WebCody Logo" 
                 className="w-12 h-12"
               />
@@ -53,15 +53,15 @@ const Footer = () => {
             <div className="space-y-3 text-background/80">
               <div className="flex items-center space-x-3">
                 <Mail className="w-4 h-4 text-primary" />
-                <span>info@webcody.com</span>
+                <span>alvarowebcody@gmail.com</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="w-4 h-4 text-primary" />
-                <span>+1 (555) 123-4567</span>
+                <span>+591 63970427</span>
               </div>
               <div className="flex items-center space-x-3">
                 <MapPin className="w-4 h-4 text-primary" />
-                <span>Ciudad, País</span>
+                <span>Edificio Skybox Piso7, Oficina 9,<br/>Avenida Heroinas y Calle Antezana</span>
               </div>
             </div>
           </div>
