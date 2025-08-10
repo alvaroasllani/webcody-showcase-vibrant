@@ -10,7 +10,7 @@ const projects = [
     description: "Plataforma de ventas online completa con carrito de compras, gestión de productos y pagos integrados",
     icon: ShoppingCart,
     color: "bg-secondary",
-    image: "/src/img/ecomerce/0.PNG",
+    image: "/img/ecomerce/0.PNG",
     tags: ["React", "Node.js", "PayPal", "Stripe"],
     url: "https://plantilla-e-comerce.vercel.app/"
   },
@@ -20,7 +20,7 @@ const projects = [
     description: "Sistema integral de gestión empresarial con dashboard analytics y control de inventarios",
     icon: BarChart3,
     color: "bg-accent",
-    image: "/src/img/sayqa/1.PNG",
+    image: "/img/sayqa/1.PNG",
     tags: ["Vue.js", "Chart.js", "MySQL", "API REST"],
     url: "https://sayqa-medicina-natural.netlify.app/"
   },
@@ -30,7 +30,7 @@ const projects = [
     description: "Aplicación móvil nativa con funcionalidades avanzadas y experiencia de usuario optimizada",
     icon: Smartphone,
     color: "bg-gradient-primary",
-    image: "/src/img/app90/1.PNG",
+    image: "/img/app90/1.PNG",
     tags: ["React Native", "Firebase", "Push Notifications", "Offline"]
   }
 ];

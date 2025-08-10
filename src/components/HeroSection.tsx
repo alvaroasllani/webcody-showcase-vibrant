@@ -23,11 +23,26 @@ const HeroSection = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12 animate-fade-in-up animation-delay-400">
-            <Button size="lg" className="btn-hero text-lg px-8 py-4 group">
+            <Button 
+              size="lg" 
+              className="btn-hero text-lg px-8 py-4 group"
+              onClick={() => {
+                const proyectosSection = document.getElementById('proyectos');
+                proyectosSection?.scrollIntoView({ behavior: 'smooth' });
+              }}
+            >
               Ver Proyectos
               <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Button>
-            <Button size="lg" variant="outline" className="text-lg px-8 py-4 border-primary text-primary hover:bg-primary hover:text-primary-foreground">
+            <Button 
+              size="lg" 
+              variant="outline" 
+              className="text-lg px-8 py-4 border-primary text-primary hover:bg-primary hover:text-primary-foreground"
+              onClick={() => {
+                const contactoSection = document.getElementById('contacto');
+                contactoSection?.scrollIntoView({ behavior: 'smooth' });
+              }}
+            >
               Contáctanos
             </Button>
           </div>

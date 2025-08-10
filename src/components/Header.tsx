@@ -28,7 +28,13 @@ const Header = () => {
           </a>
         </nav>
 
-        <Button className="btn-hero">
+        <Button 
+          className="btn-hero"
+          onClick={() => {
+            const contactoSection = document.getElementById('contacto');
+            contactoSection?.scrollIntoView({ behavior: 'smooth' });
+          }}
+        >
           Contáctanos
         </Button>
       </div>
